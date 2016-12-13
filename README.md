@@ -30,11 +30,15 @@ Get weather by city name
 
 ```php
 require_once("path/to/vendor/autoload.php");
+
 WeatherAPI\Configs::setApiKey('your_api_key');
+
 $searchWeather = new WeatherAPI\Current\Search();
+
 $searchWeather->setQueryParams(array(
   'q' => 'london'
 ));
+
 print_r($searchWeather->execute());
 ```
 
@@ -42,11 +46,15 @@ Get weather by geographic coordinates
 
 ```php
 require_once("path/to/vendor/autoload.php");
+
 WeatherAPI\Configs::setApiKey('your_api_key');
+
 $searchWeather = new WeatherAPI\Current\Search();
+
 $searchWeather->setQueryParams(array(
   'lat' => '-22.0622478',
   'lon' => '-44.0444834'
 ));
+
 print_r($searchWeather->execute());
 ```
