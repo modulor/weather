@@ -23,6 +23,8 @@ Create or add the following to composer.json in your project root:
 }
 ```
 
+run **composer install
+
 Example
 -------
 
