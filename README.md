@@ -18,7 +18,7 @@ Create or add the following to composer.json in your project root:
         }
     ],
     "require": {
-        "modulor/weather": "~1.0.0"
+        "modulor/weather": "dev-master"
     }
 }
 ```
