@@ -1,6 +1,6 @@
 # OpenWeatherMap PHP Library
 
-Basic API usage from openweathermap.org
+Basic API usage from [openweathermap.org](http://openweathermap.org)
 
 Installation
 ------------
