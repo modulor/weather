@@ -10,7 +10,6 @@
             "email": "modulor@hotmail.es"
         }
     ],
-    "minimum-stability": "dev-master",
     "require": {
         "php": ">=5.5.0"
     },
